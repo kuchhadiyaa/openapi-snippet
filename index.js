@@ -198,8 +198,8 @@ const getSnippetsForTargets = function (targets, snippet, mimeType) {
     snippets.push({
       id: targets[j],
       ...(mimeType !== undefined && { mimeType: mimeType }),
-      title: target.title,
-      content: snippet.convert(
+      lang: target.title,
+      source: snippet.convert(
         target.language,
         typeof target.library !== 'undefined' ? target.library : null
       ),
