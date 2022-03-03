@@ -1,10 +1,10 @@
 {
   "name": "openapi-snippet",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "Generates code snippets from Open API (previously Swagger) documents.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ErikWittern/openapi-snippet"
+    "url": "https://github.com/kuchhadiyaa/openapi-snippet"
   },
   "keywords": [
     "HTTP",
@@ -12,7 +12,7 @@
     "OpenAPI Specification",
     "Swagger"
   ],
-  "author": "Erik Wittern",
+  "author": "",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
